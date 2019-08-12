@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+  background-color: #000;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+}
+
+.title {
+  margin-bottom: 40px;
+  font-size: 26px;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #061f58;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #061f58;
+  background-color: #fff;
+}

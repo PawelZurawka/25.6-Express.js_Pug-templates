@@ -1,0 +1,29 @@
+doctype html
+html
+    head
+        title="Zadanie 25.6-authorization"
+        link(href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet")
+        link(
+            rel="stylesheet" 
+            href="../authorization.css"
+        )
+    body
+        img.hero(src="../google.png" alt="logo")
+        div.formWrapper
+          form(action='/logged')
+            label Email:
+              input.input(
+              type='text'
+              placeholder='enter email'
+              name='email'
+            )   
+            label Password:
+              input.input(
+              type='password'
+              placeholder='enter password'
+              name='password'
+            )
+            input.submit(
+              type='submit'
+              value='Login'
+            )

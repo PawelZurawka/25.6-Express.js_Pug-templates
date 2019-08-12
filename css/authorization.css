@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.hero {
+  display: block;
+  margin: 0 auto;
+}
+
+.formWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"] {
+  margin-left: 41px;
+  background-color: #4285f4;
+}
+
+.submit {
+  width: 70px;
+  align-self: center;
+  background-color: #34a853;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 10px;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 90px;
+}
+
+input[type="password"] {
+  margin-left: 10px;
+  background-color: #fbbc05;
+  margin-top: 10px;
+}
+
+.input {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  border: 2px solid transparent;
+  padding: 5px 10px;
+}
+
+.input:focus {
+  border: 2px solid #ea4335;
+}
+
+::placeholder {
+  color: #fff;
+}
